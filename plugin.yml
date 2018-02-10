@@ -1,0 +1,8 @@
+main: xyz.ambedo.phil.Registry
+name: EpiphanyStaffAuth
+version: 1.0.0
+author: DopeDealers
+description: An authplugin made for Ambedo Services partner EpiphanyMC, Made by Phil K CEO
+
+
+permission: epiphany.staff

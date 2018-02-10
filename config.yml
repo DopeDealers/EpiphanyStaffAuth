@@ -1,0 +1,66 @@
+########################################################################
+#                                                                      #
+#                                                                      #
+#                 EpiphanyMC Staff Auth Plugin                         #
+#   Created by Ambedo Services CEO Phil K. aka Lead Dev DopeDealers    #
+#                                                                      #
+#                                                                      #
+########################################################################
+
+########################################################################
+#                                                                      #
+#                                                                      #
+#                 EpiphanyMC Staff Auth Plugin                         #
+#   Created by Ambedo Services CEO Phil K. aka Lead Dev DopeDealers    #
+#                                                                      #
+#                                                                      #
+########################################################################
+
+
+########################################
+#                                      #
+# Customizable Messages for the plugin #
+#                                      #
+########################################
+messages:
+  prefix: '&8[&4&lEpiphanyMC&8-&b&lStaffAuth&8]'
+  login-setup: '%prefix% &cYour &bGoogle Setup Code&c is &6&l%key%'
+  login-join: '&cPlease open the Google Authenticator App and provide the six digit code.'
+  access-granted: '%prefix% &aAccess Granted.'
+  NoPerm: "&cYou do not have permission to do this.."
+  Reload: "&aReload Successful!"
+  EpiphanyInfo:
+  - '&8&m----------------------'
+  - ''
+  - '&4&l   EpiphanyMC&8-&b&lStaffAuth'
+  - ''
+  - '&cCommands:'
+  - '&7/staffauth | Shows this'
+  - '&7/staffauth reload | Admin Only'
+  - '&7/staffauth version | Shows info'
+  - ''
+  - '&8&m----------------------'
+
+#####################################################################
+#                                                                   #
+# Every Staffs UUID and Google Code Setup WILL be logged under here #
+#                                                                   #
+#                                                                   #
+# Example                                                           #
+# authcodes:                                                        #
+#   uuid: code                                                      #
+#                                                                   #
+# Deleting this code from the user will result                      #
+# in them not being able to join.                                   #
+#                                                                   #
+#####################################################################
+authcodes:
+  1ec26940-06d9-4038-8bfa-40647a3f656d: HGF2MSK3GSHRN7J7
+  719b1589-0f71-4d0a-8b26-d64f29381926: ISB7W37IWZL7PGGD
+  511b0d47-2702-441e-8212-6cbc54ebe0f7: 54EOG7UV3AWA2BA5
+  5d4cc56e-5a82-4c2d-aa7e-6abf9e71a3aa: 3XI2HKQVQP2H25UM
+  6042615a-5b15-4712-ba31-32a8b0a92f74: P3V55QOUXY3REIZB
+  c5076ece-d20d-40d0-af45-de96b12b43ed: Z6ZIQOH6SLANN7RS
+  c38a149d-4cc9-4e9e-959d-38190278ffa4: O67IXEGPY32PTPDL
+  c893eaf8-c51e-46d0-a7b9-08c3f0de8fed: XEHX4MADXI6ZLAWZ
+  14990a53-bfef-47bc-954c-855c875c5c40: W56BNPY447ZAN537
